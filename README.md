@@ -1,16 +1,14 @@
-### Hi there 👋
+# XJPVPN
 
-<!--
-**xjpvpn/xjpvpn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> This is an early, unfinished implementation. It is intended for developers only and should **NOT** be used in a production environment.
 
-Here are some ideas to get you started:
+![](static/logo.webp)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Roadmap
+
+| Feature       | Status | Description                                                                                    |
+| ------------- | ------ | ---------------------------------------------------------------------------------------------- |
+| Init Protocol | DONE   | The protocol uses websocket between a SOCKS5 client and proxy server.                          |
+| CI System     | TODO   | The CI should validate everything functions as intended. Security is a priority consideration. |
+| Cipher System | TODO   | HTTPS is not enabled. A possible solution is to place NGINX in front of the proxy server.      |
