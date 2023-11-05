@@ -5,6 +5,13 @@
 ![](static/logo.webp)
 
 
+## Design Decision
+
++ **Free.** The project aims to remain free, non-profit, and simple in order to minimize security risks and maintenance needs. The current maintainer is located outside of China.
++ **Minimal.** The project will keep a minimal and simplified design, without attempting compatibility with other protocols.
++ **HTTP.** Generic HTTP is used as the tunneling protocol, but HTTPS will not be built internally. Instead, NGINX could provide HTTPS capability.
+
+
 ## Roadmap
 
 | Feature       | Status | Description                                                                                    |
